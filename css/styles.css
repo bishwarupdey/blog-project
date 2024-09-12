@@ -1,0 +1,7 @@
+@import url(index.css);
+@import url(blogpost.css);
+@import url(subscribe.css);
+
+body{
+    margin: 0;
+}

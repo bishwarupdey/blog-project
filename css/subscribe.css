@@ -1,9 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
-body{
-    margin: 0;
-}
 .subscribe-page{
     display: grid;
     width: 100%;
@@ -17,7 +14,7 @@ body{
     "main main main main main main main main"
     "ft ft ft ft ft ft ft ft";
 }
-.header{
+.subs-header{
     margin: 0;
     grid-area: hd;
     width: 100%;
@@ -29,7 +26,7 @@ body{
     background-attachment: fixed;
     position: relative;
 }
-#header-text{
+#subs-header-text{
     opacity: 0.6;
     font-family: "Montserrat Alternates", sans-serif;
     font-weight: 900;
@@ -50,7 +47,7 @@ body{
     width: 100%;
     justify-content: center;
 }
-.button {
+.subs-button {
     background-color: #792d1a;
     border: none;
     width: auto;
@@ -68,7 +65,7 @@ body{
     font-size: 1.5vw;
     transition-duration: 0.4s;
 }
-.button:hover{
+.subs-button:hover{
     background-color: antiquewhite;
     color: black;
 }
@@ -102,14 +99,14 @@ body{
     margin: 10px;
     font-size: 1.5vw;
 }
-.footer{
+.subs-footer{
     grid-area: ft;
     background-color: rgb(160, 139, 112);
     font-family: "Montserrat", sans-serif;
     text-align: center;
     padding-bottom: 10px;
 }
-.footer-links{
+.subs-footer-links{
     grid-area: ft;
     display: flex;
     flex-direction: row;
@@ -119,7 +116,7 @@ body{
     gap: 30px;
     padding-top: 0;
 }
-.footer-icon{
+.subs-footer-icon{
     width: 3vw;
 }
 @media(max-width: 450px){  
@@ -136,14 +133,14 @@ body{
         "main"
         "ft";
     }
-    .header{
+    .subs-header{
         height: 40vw;
         padding-left: 0;
     }
-    #header-text{
+    #subs-header-text{
         font-size: 10vw;
     }
-    .button{
+    .subs-button{
         font-size: 4vw;
     }
     .subscribe-form>h1{
@@ -162,14 +159,14 @@ body{
         height: 4vw;
         font-size: 3vw;
     }
-    .footer>h2{
+    .subs-footer>h2{
        font-size: 5vw; 
     }
-    .footer-icon{
+    .subs-footer-icon{
         width: 8vw;
     }
 }
-@media(max-width: 900px){  
+@media (min-width: 451px) and (max-width: 900px){  
     .subscribe-page{
         display: grid;
         width: 100%;
@@ -183,14 +180,14 @@ body{
         "main"
         "ft";
     }
-    .header{
+    .subs-header{
         height: 40vw;
         padding-left: 0;
     }
-    #header-text{
+    #subs-header-text{
         font-size: 10vw;
     }
-    .button{
+    .subs-button{
         font-size: 4vw;
     }
     .subscribe-form>h1{
@@ -209,10 +206,57 @@ body{
         height: 4vw;
         font-size: 3vw;
     }
-    .footer>h2{
+    .subs-footer>h2{
        font-size: 4vw; 
     }
-    .footer-icon{
+    .subs-footer-icon{
         width: 7vw;
+    }
+}
+@media (min-width: 900px) and (max-width: 1230px){  
+    .subscribe-page{
+        display: grid;
+        width: 100%;
+        background-color: #b4b4b4;
+        background-size: cover;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+        grid-template-areas:
+        "hd"
+        "nav"
+        "main"
+        "ft";
+    }
+    .subs-header{
+        height: 40vw;
+        padding-left: 0;
+    }
+    #subs-header-text{
+        font-size: 10vw;
+    }
+    .subs-button{
+        font-size: 5vw;
+    }
+    .subscribe-form>h1{
+        font-size: 5vw;
+    }
+    .subscribe-form{
+        margin-top: 20px;
+    }
+    .subscribe-btn{
+        width: 30vw;
+        height: 5vw;
+        font-size: 4vw;
+    }
+    .input-box{
+        width: 40vw;
+        height: 4vw;
+        font-size: 3vw;
+    }
+    .subs-footer>h2{
+       font-size: 3vw; 
+    }
+    .subs-footer-icon{
+        width: 5vw;
     }
 }
