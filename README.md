@@ -59,9 +59,13 @@ Have a look at the "Personal Blog Website - Project Rubric.pdf" file for the gui
   - subscribe.css
 
 **index.html**
+
 **blogpost.html**
+
 **subscribe.html**
+
 **Personal Blog Website - Project Rubric.pdf**
+
 **README.md**
 
 **Final product**
