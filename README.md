@@ -71,7 +71,7 @@ Have a look at the "Personal Blog Website - Project Rubric.pdf" file for the gui
 **README.md**
 ---
 
-`
+```
 **Features of the webpage**
 1) Homepage created with a navigation bar with 4 buttons (Recipes, Search, About, Subscribe)
 2) 3 cards for different blogposts have been added to the homepage.
@@ -80,7 +80,7 @@ Have a look at the "Personal Blog Website - Project Rubric.pdf" file for the gui
 5) "Home" button added to the blogpost page.
 6) "Return Home" button added to the Subscribe page.
 7) Social media links added to the footer of each page. For now these links lead back to the homepage.
-`
+```
 
 **Final product**
 
