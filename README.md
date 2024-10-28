@@ -39,7 +39,7 @@ Have a look at the "Personal Blog Website - Project Rubric.pdf" file for the gui
 
 **File Structure**
 
-assets/
+**assets/**
   - authorphoto.png
   - backgroundd2.jpg
   - baked-mac-and-cheese.jpg
@@ -52,20 +52,21 @@ assets/
   - sitelogo.png
   - twitterlogo.svg
 
-css/
+**css/**
   - blogpost.css
   - index.css
   - styles.css
   - subscribe.css
 
-index.html
-blogpost.html
-subscribe.html
-Personal Blog Website - Project Rubric.pdf
-README.md
+**index.html**
+**blogpost.html**
+**subscribe.html**
+**Personal Blog Website - Project Rubric.pdf**
+**README.md**
 
 **Final product**
 
+https://bishwarupdey.github.io/blog-project/
 
 
 ## License
