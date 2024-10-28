@@ -20,6 +20,7 @@ You can either clone or download the .zip file using the green code button at th
 You can use VScode or similar ide to modify or see your code using Liveserver.
 
 ## Criteria
+Have a look at the "Personal Blog Website - Project Rubric.pdf" file for the guidelines or look at the images below.
 
 ![{AC7B22D9-1E03-4FA0-B41A-3785D8967A1B}](https://github.com/user-attachments/assets/3b3bd6c8-8a6c-4ac4-b2ba-0d749811dda7)
 
@@ -38,7 +39,30 @@ You can use VScode or similar ide to modify or see your code using Liveserver.
 
 **File Structure**
 
+assets/
+  - authorphoto.png
+  - backgroundd2.jpg
+  - baked-mac-and-cheese.jpg
+  - eggplant-parmesan.jpg
+  - facebooklogo.svg
+  - githublogo.svg
+  - instagramlogo.svg
+  - lamg-gyros.svg
+  - linkedinlogo.svg
+  - sitelogo.png
+  - twitterlogo.svg
 
+css/
+  - blogpost.css
+  - index.css
+  - styles.css
+  - subscribe.css
+
+index.html
+blogpost.html
+subscribe.html
+Personal Blog Website - Project Rubric.pdf
+README.md
 
 **Final product**
 
