@@ -34,9 +34,11 @@ Have a look at the "Personal Blog Website - Project Rubric.pdf" file for the gui
 
 
 ## Development
+
 - HTML5
 - CSS
 
+-----------------------------
 **File Structure**
 
 **assets/**
